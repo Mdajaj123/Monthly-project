@@ -1,0 +1,244 @@
+    @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400&display=swap");
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .side-bar-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px;
+        margin: 5px;
+        flex-direction: row;
+    }
+    
+    .side-bar-item img {
+        margin: 10px;
+    }
+    
+    .main-container {
+        display: flex;
+        margin-left: 0px;
+        padding-left: 0px;
+        height: 100vh;
+        /*overflow: hidden;*/
+    }
+    
+    .side-bar {
+        width: 300px;
+        height: 1100px;
+        background-color: black;
+        flex: 1fr;
+    }
+    
+    .side-bar-item-1 img {
+        width: 31px;
+        margin-left: 20px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    
+    .side-bar-item-1 a {
+        color: white;
+    }
+    
+    .side-bar-item-3 a {
+        color: white;
+        text-align: center;
+    }
+    
+    .side-bar-item-3 {
+        width: 347.097px;
+        height: 61.761px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        background: #282828;
+        margin-left: 20px;
+    }
+    
+    .side-bar-item-3 img {
+        margin: 10px;
+    }
+    
+    .text-side-bar {
+        width: 300.097px;
+        height: 61.761px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        background: #282828;
+        padding-top: 20px;
+        margin-top: 30px;
+    }
+    
+    .side-bar-item a {
+        color: #fff;
+    }
+    
+    .logo img {
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .side.logo img {
+        padding-left: 20px;
+    }
+    
+    .sidebar-content {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    
+    .side-bar-item-2 img {
+        width: 29px;
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+    
+    .side-bar-item-2 a {
+        margin-left: 10px;
+        color: white;
+    }
+    
+    .sidebar-content a {
+        color: white;
+    }
+    
+    .installapp img {
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+    
+    .herosection {
+        display: flex;
+        height: 1100px;
+        width: 1400px;
+        flex-direction: column;
+        background-color: rgb(14, 14, 14);
+        flex: 4fr;
+    }
+    
+    .good-morning {
+        display: flex;
+        width: 280px;
+        height: 56px;
+        flex-shrink: 0;
+        align-items: center;
+        margin-top: 60px;
+        margin-left: 50px;
+    }
+    
+    .good-morning p {
+        color: #fff;
+        font-family: DM Sans;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 550;
+        line-height: normal;
+        letter-spacing: -1.14px;
+    }
+    
+    .crd {
+        display: flex;
+        width: 900px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .crd-1 {
+        width: 262px;
+        height: 100px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        background: #303030;
+        margin: 10px;
+        color: white;
+        margin-left: 20px;
+    }
+    
+    .crd-1 a {
+        text-decoration: none;
+        color: white;
+        margin-left: 5px;
+    }
+    
+    .below-card {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .shows {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 20px;
+        font-family: "DM Sans", sans-serif;
+        font-size: 29px;
+        font-weight: 700;
+        color: white;
+    }
+    
+    .shows a {
+        color: white;
+    }
+    
+    .rdf {
+        display: flex;
+        width: 251.292px;
+        height: 305.904px;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    
+    .rdf-2 {
+        display: flex;
+        width: 251.292px;
+        height: 190px;
+        margin-left: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .player-card {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .footer-1 {
+        display: flex;
+        width: 100%;
+        height: 150px;
+        background-color: #181818;
+        margin-top: 165px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .side-bar-footer img {
+        width: 62.967px;
+        height: 70px;
+        flex-shrink: 0;
+    }
+    
+    .footer-2 {
+        display: flex;
+        width: 100%;
+        height: 150px;
+        background-color: #181818;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .music-ply img {
+        margin-left: 50px;
+    }
+    
+    .all-music-button {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 25px;
+        margin-left: 150px;
+    }
